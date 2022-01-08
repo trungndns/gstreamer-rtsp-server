@@ -1,0 +1,28 @@
+[
+  {
+    "name": "camera_1",
+    "streamType": "rtsp",
+    "url": "rtsp://demo:demo@ipvmdemo.dyndns.org:5541/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast",
+	"username": "admin",
+    "password": "123456",
+	"latency": 200
+  },
+  {
+    "name": "camera_2",
+    "streamType": "rtsp",
+    "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4",
+	"username": null,
+    "password": null,
+	"latency": 200
+  },
+  {
+    "name": "camera_3",
+    "streamType": "simulation",
+    "url": "new"
+  },
+  {
+    "name": "camera_4",
+    "streamType": "simulation",
+    "url": "new"
+  }
+]
